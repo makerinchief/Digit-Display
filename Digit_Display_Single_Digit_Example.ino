@@ -1,7 +1,7 @@
 
 /*
   Digit Display Single Digit Example
-  Justin Claude Kirk 2020
+  Justin Kirk 2020
   info@makerinchief.com
   www.makerinchief.com
 
@@ -32,7 +32,7 @@
 
       Essentially, the digit is a single strip of LEDs, broken up into 7 segments of 3.  By turning on or off segments,
       we can display a character.  For example, to display the number 1, you would turn on segment C and G while turning off
-      the rest.  Using WS2812B you can also control the color of each pixel offering a wide range of color options.
+      the rest.  Using WS2812B LEDs, you can also control the color of each pixel offering a wide range of color options.
 
       This example shows how to set the color of a digit and display the numbers 0-9.  See comments for more notes.
 
@@ -42,13 +42,11 @@
 */
 
 
-//This works using the FastLED library to control the WS2812 LEDs.
-
+//Use the FastLED library to control the WS2812 LEDs.
 #include <FastLED.h>
 
 //The analog pin 0 of the Arduino Nano is used just for convience.  Any GPIO pin can be used.
 const int LED_PIN = 14; //Analog Pin A0 GPIO number
-
 
 //Essentially, we are creating a long single strip of leds which get broken up into segments based on the following:
 
