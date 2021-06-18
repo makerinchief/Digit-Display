@@ -1,4 +1,4 @@
 # Digit Display
-Controls the Digit Display Kit from:
+Project files for Digit Display WS2812b LED Kit
 
-www.makerinchief.com
+https://www.youtube.com/watch?v=Z_5Tqm7yOdM
